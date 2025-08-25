@@ -7,7 +7,7 @@ anyio==4.9.0
 async-timeout==4.0.3
 attrs==25.3.0
 # Editable install with no version control (aws-security-bot==0.1)
--e /Users/zendannyy/lang_bot
+-e /Users/User/cloud_bot
 boto3==1.38.41
 botocore==1.38.41
 certifi==2025.6.15
