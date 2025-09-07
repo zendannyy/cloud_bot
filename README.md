@@ -7,7 +7,6 @@ Using the LangChain framework (https://python.langchain.com/docs/introduction/) 
 ## Summary
 A natural language chatbot that answers prompted questions for a given AWS account. 
 
-For getting an overview of the system design and file structure, see the `lang_bot_tree_output.txt` file. 
 
 Prerequisites 
 - Having credentials for any chat based LLM that LanhChain supports. 
@@ -21,6 +20,8 @@ Some of the questions it should be able to answer are
 - What permissions does <a given IAM user have >
 - Describe the most permissive role
 
+
+For getting an overview of the system design and file structure, see the `tree` command output.
 
 ## References 
 
