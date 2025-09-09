@@ -31,7 +31,7 @@ def create_tags(self, **kwargs):
     tags = kwargs.get('Tags', [])
     tag_resources = []
 
-    # Generate all of the tag resources that just were called with the
+    # Generate all of the tag resources that were just called with the
     # preceding client call.
     for resource in resources:
         for tag in tags:

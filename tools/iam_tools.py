@@ -127,7 +127,6 @@ def analyze_user_permissions(
 def get_iam_security_recommendations() -> str:
     """
     Get comprehensive IAM security recommendations and best practices.
-    
     Provides actionable IAM security recommendations based on AWS security
     best practices and compliance requirements.
     
@@ -168,7 +167,7 @@ def get_iam_security_recommendations() -> str:
         logger.error(f"Failed to generate IAM recommendations: {str(e)}")
         raise ToolExecutionError(f"Failed to generate IAM recommendations: {str(e)}")
 
-# Test success message
+# Test success Log message
 logger_obj = Logger(log_level='DEBUG')
 logger = logger_obj.setup_logging()
 logger.info(f"Successful {os.path.abspath(__file__)} Run")
