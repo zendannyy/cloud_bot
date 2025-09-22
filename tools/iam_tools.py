@@ -39,7 +39,6 @@ def analyze_role_permissions(
     """
     try:
         logger.info(f"Starting IAM Role analysis for: {role}")
-        
         # Get basic permissions analysis
         result = iam_analyzer.analyze_role_permissions(role)
         
@@ -86,12 +85,11 @@ def analyze_user_permissions(
         include_policy_details: Include detailed policy document analysis
         check_last_activity: Check user's last activity/login time
     Returns:
+        Initial logger message returns basic permissions analysis
         JSON string with detailed permissions analysis and security recommendations
     """
     try:
         logger.info(f"Starting IAM user analysis for: {username}")
-        
-        # Get basic permissions analysis
         result = iam_analyzer.analyze_user_permissions(username)
         
         # Add enhanced analysis if requested
