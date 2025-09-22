@@ -10,8 +10,7 @@ from utils.logger import get_logger
 @tool
 def describe_tags(event_name, class_attributes, **kwargs):
     """This utilizes a custom describe_tags method on the ec2 service resource
-
-    This is from
+    From
     https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-tags.html
     """
     class_attributes['describe_tags'] = describe_tags
