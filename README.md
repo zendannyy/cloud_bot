@@ -33,6 +33,7 @@ Future Additions
 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#using-boto3
 https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-tags.html
 https://docs.aws.amazon.com/cli/latest/reference/s3api/
+
 [AWS Named Profiles](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-using-profiles)
 
 [LangChain Tools](https://python.langchain.com/docs/modules/agents/tools/custom_tools)
