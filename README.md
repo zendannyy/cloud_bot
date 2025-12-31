@@ -39,7 +39,7 @@ Some example questions it should be able to answer are
 - EC2 Instance Details: Type, state, volume size, architecture.
 - Analyze the S3 buckets in <given account>
 - Are there any S3 buckets exposed to the public?
-- What permissions does <a given IAM user have >
+- What permissions does `<a given IAM user have >`
 
 ### Here is sample help output for the bot
 
