@@ -28,7 +28,7 @@ Install requirements
 `pip install requirements.txt`
 
 Can also choose to isolate further with a Conda environment
-# Activate conda base environment
+### Activate conda base environment
 `source ~/miniconda3/bin/activate base`
 [Conda Docs](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html)
 
@@ -41,7 +41,7 @@ Some example questions it should be able to answer are
 - Are there any S3 buckets exposed to the public?
 - What permissions does <a given IAM user have >
 
-- Here is sample help output for the bot
+### Here is sample help output for the bot
 
 <picture>
     <source media"(prefers-color-schema: dark)" srcset="./images/cloud_bot_help_Response.png">
