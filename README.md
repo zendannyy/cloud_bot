@@ -10,7 +10,7 @@ Run the bot at the CLI
 
 
 Prerequisites 
-- Having credentials for any chat based LLM that LanhChain supports. 
+- Having credentials for any chat based LLM that LangChain supports. 
 - Having authorized AWS credentials through an .env file or through named profiles. 
 [Named Profiles](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-using-profiles)
 
@@ -37,7 +37,7 @@ Run the main script
 
 Some example questions it should be able to answer are 
 - EC2 Instance Details: Type, state, volume size, architecture.
-- Analyze the S3 buckets in <given account>
+- Analyze the S3 buckets in `<given account>`
 - Are there any S3 buckets exposed to the public?
 - What permissions does `<a given IAM user have >`
 
